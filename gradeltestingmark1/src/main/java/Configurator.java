@@ -76,7 +76,7 @@ public class Configurator {
 
         //setPassword(prop.getProperty("password"));
         setPassword(prop.getProperty("password"));
-        setSender_Email(prop.getProperty("Bot_Email"));
+        setSender_Email(prop.getProperty("senderemail"));
         setSmtp_Host(prop.getProperty("mail.smtp.host"));
         setSmtp_Trust(prop.getProperty("mail.smtp.ssl.trust"));
         setSmtp_port(prop.getProperty("mail.smtp.port"));
